@@ -5,12 +5,11 @@ my_weight=180
 my_eyes='Blue'
 my_teeth='White'
 my_hair='Brown'
-print(f"let's talk about{my_name}.")
-print(f"He's {my_height}inches tall.")
-print(f"He's {my_weight}pounds heavy")
+print "let's talk about %s" %my_name
+print "He's %d inches tall." %my_height
+print "He's %d pounds heavy" %my_weight
 print("Accually that's not too heavy")
-print( f"He's got {my_eye}eyes and {my_hair}hair.")
-print( f"His teeth are usually{my_teeth}depending on the coffee")
-total=my_age+my_height+my_weight
-print(f"If i add{my_age},{my_height},and{my_weight} I get {total}.")
+print "He's got %s eyes and %s hair." %(my_eyes,my_hair)
+print "His teeth are usually %s depending on the coffee" %my_teeth
+print "If i add %d,%d and %d I get %d "%( my_age,my_height,my_weight,my_age+my_height+my_weight)
 
