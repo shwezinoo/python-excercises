@@ -151,4 +151,4 @@ back and see your ship implode then explode like a
 bright star, taking out the Gothon ship at the same
 time. You won!
 """))
-return 'finished'
+return "finished"
