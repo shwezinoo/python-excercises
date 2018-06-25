@@ -6,13 +6,18 @@ def sort_words(words):
     return sorted(words)
 def print_first_word(words):
     """Prints the first word after popping it off """
-    word=word.pop(0)
+    word=words.pop(0)
     print word
 
 def print_last_word(words):
     """Prints the last word after popping it off"""
-    word=break_words(sentence)
+    word=words.pop(-1)
+    return word
+
+def sort_sentence(sentence):
+    words=break_words(sentence)
     return sort_words(words)
+
 def print_first_and_last(sentence):
     """Prints the first and last words of the sentence."""
     words=break_words(sentence)

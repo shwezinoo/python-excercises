@@ -1,8 +1,7 @@
 from sys import argv
 
-script,first,second,third=argv
+script, first, second = argv
 
-print "The script is called",script
-print "Your first variable",first
-print "Your second variable",second
-print "Your third variable is",third
+print "Your script ",script
+print "Your first variable", first
+print "Your second variable", second
