@@ -1,5 +1,5 @@
 def break_words(stuff):
-    words=stuff.split('')
+    words=stuff.split(' ')
     return words
 def sort_words(words):
     """ sorts the words """
