@@ -12,8 +12,8 @@ class Child(object):
             def __init__(self):
              self.other=Other()
 
-            def implicit(self):
-             self.other.implicit()
+            def implicite(self):
+              self.other.implicite()
 
             def override(self):
               print "Child override"
@@ -23,6 +23,6 @@ class Child(object):
                self.other.altered()
                print "Child,after other altered()"
 son=Child()
-son.implicit()
+son.implicite()
 son.override()
 son.altered()
