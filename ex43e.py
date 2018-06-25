@@ -24,8 +24,8 @@ bought him, which makes him fly into an insane rage
 and blast you repeatedly in the face until you are
 dead. Then he eats you.
 """))
-return 'death'
-elif action == "dodge!":
+ return 'death'
+ elif action == "dodge!":
 print(dedent("""
 Like a world class boxer you dodge, weave, slip and
 slide right as the Gothon's blaster cranks a laser
@@ -34,7 +34,7 @@ your foot slips and you bang your head on the metal
 wall and pass out. You wake up shortly after only to
 die as the Gothon stomps on your head and eats you.
 """))
-return 'death'
+ return 'death'
 elif action == "tell a joke":
 print(dedent("""
 Lucky for you they made you learn Gothon insults in

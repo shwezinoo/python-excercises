@@ -8,7 +8,7 @@ def index():
     name = request.args.get('name', 'Nobody')
 
     if name:
-        greeting = f"Hello, {name}"
+        greeting = "Hello, %name",name
     else:
         greeting = "Hello World"
 
@@ -16,4 +16,4 @@ def index():
 
 
 if __name__ == "__main__":
-app.run()
+  app.run()

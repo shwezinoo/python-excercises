@@ -1,11 +1,11 @@
 class Map(object):
-    scenes=[
+    scenes={
             'central_corridor':CentralCorridor(),
             'laser_weapon_armory':LaserWeaponArmory(),
             'the_brideg':TheBridge(),
             'escape_pod':EscapePod(),
             'death':Death()
-            ]
+    }
     def __init__(self,start_scene):
         self.start_scene=start_scene
     def next_scene(self,scene_name):
